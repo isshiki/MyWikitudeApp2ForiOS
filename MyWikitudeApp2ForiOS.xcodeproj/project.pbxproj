@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17061AE61F73DA9C0099F5A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17061AE51F73DA9C0099F5A0 /* AppDelegate.m */; };
+		17061AE91F73DA9C0099F5A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17061AE81F73DA9C0099F5A0 /* ViewController.m */; };
+		17061AEC1F73DA9C0099F5A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17061AEA1F73DA9C0099F5A0 /* Main.storyboard */; };
+		17061AEF1F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17061AED1F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS.xcdatamodeld */; };
+		17061AF11F73DA9C0099F5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17061AF01F73DA9C0099F5A0 /* Assets.xcassets */; };
+		17061AF41F73DA9C0099F5A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17061AF21F73DA9C0099F5A0 /* LaunchScreen.storyboard */; };
+		17061AF71F73DA9C0099F5A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17061AF61F73DA9C0099F5A0 /* main.m */; };
+		17061B021F73DE160099F5A0 /* WikitudeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17061B001F73DDD70099F5A0 /* WikitudeSDK.framework */; };
+		17061B031F73DE160099F5A0 /* WikitudeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 17061B001F73DDD70099F5A0 /* WikitudeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		17061B061F73E10D0099F5A0 /* ArchitectWorld in Resources */ = {isa = PBXBuildFile; fileRef = 17061B051F73E10D0099F5A0 /* ArchitectWorld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17061B041F73DE160099F5A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				17061B031F73DE160099F5A0 /* WikitudeSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17061AE11F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWikitudeApp2ForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17061AE41F73DA9C0099F5A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17061AE51F73DA9C0099F5A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17061AE71F73DA9C0099F5A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17061AE81F73DA9C0099F5A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17061AEB1F73DA9C0099F5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17061AEE1F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyWikitudeApp2ForiOS.xcdatamodel; sourceTree = "<group>"; };
+		17061AF01F73DA9C0099F5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17061AF31F73DA9C0099F5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17061AF51F73DA9C0099F5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17061AF61F73DA9C0099F5A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17061B001F73DDD70099F5A0 /* WikitudeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WikitudeSDK.framework; path = MyWikitudeApp2ForiOS/Frameworks/WikitudeSDK.framework; sourceTree = "<group>"; };
+		17061B051F73E10D0099F5A0 /* ArchitectWorld */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ArchitectWorld; path = MyWikitudeApp2ForiOS/ArchitectWorld; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17061ADE1F73DA9C0099F5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17061B021F73DE160099F5A0 /* WikitudeSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17061AD81F73DA9C0099F5A0 = {
+			isa = PBXGroup;
+			children = (
+				17061B051F73E10D0099F5A0 /* ArchitectWorld */,
+				17061AE31F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS */,
+				17061AE21F73DA9C0099F5A0 /* Products */,
+				17061AFD1F73DDBE0099F5A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17061AE21F73DA9C0099F5A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17061AE11F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17061AE31F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS */ = {
+			isa = PBXGroup;
+			children = (
+				17061AE41F73DA9C0099F5A0 /* AppDelegate.h */,
+				17061AE51F73DA9C0099F5A0 /* AppDelegate.m */,
+				17061B0A1F73E2E60099F5A0 /* Resources */,
+				17061B081F73E2360099F5A0 /* Supporting Files */,
+				17061AE71F73DA9C0099F5A0 /* ViewController.h */,
+				17061AE81F73DA9C0099F5A0 /* ViewController.m */,
+				17B2B14F1F74C1720080C2FF /* Views */,
+			);
+			path = MyWikitudeApp2ForiOS;
+			sourceTree = "<group>";
+		};
+		17061AFD1F73DDBE0099F5A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17061B001F73DDD70099F5A0 /* WikitudeSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17061B081F73E2360099F5A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17061AF51F73DA9C0099F5A0 /* Info.plist */,
+				17061AF61F73DA9C0099F5A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17061B0A1F73E2E60099F5A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17061AED1F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS.xcdatamodeld */,
+				17061AF01F73DA9C0099F5A0 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		17B2B14F1F74C1720080C2FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17061AF21F73DA9C0099F5A0 /* LaunchScreen.storyboard */,
+				17061AEA1F73DA9C0099F5A0 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17061AE01F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17061AFA1F73DA9C0099F5A0 /* Build configuration list for PBXNativeTarget "MyWikitudeApp2ForiOS" */;
+			buildPhases = (
+				17061ADD1F73DA9C0099F5A0 /* Sources */,
+				17061ADE1F73DA9C0099F5A0 /* Frameworks */,
+				17061ADF1F73DA9C0099F5A0 /* Resources */,
+				17061B041F73DE160099F5A0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWikitudeApp2ForiOS;
+			productName = MyWikitudeApp2ForiOS;
+			productReference = 17061AE11F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17061AD91F73DA9C0099F5A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Isshiki Masahiko";
+				TargetAttributes = {
+					17061AE01F73DA9C0099F5A0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 17061ADC1F73DA9C0099F5A0 /* Build configuration list for PBXProject "MyWikitudeApp2ForiOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17061AD81F73DA9C0099F5A0;
+			productRefGroup = 17061AE21F73DA9C0099F5A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17061AE01F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17061ADF1F73DA9C0099F5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17061AF41F73DA9C0099F5A0 /* LaunchScreen.storyboard in Resources */,
+				17061B061F73E10D0099F5A0 /* ArchitectWorld in Resources */,
+				17061AF11F73DA9C0099F5A0 /* Assets.xcassets in Resources */,
+				17061AEC1F73DA9C0099F5A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17061ADD1F73DA9C0099F5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17061AE91F73DA9C0099F5A0 /* ViewController.m in Sources */,
+				17061AE61F73DA9C0099F5A0 /* AppDelegate.m in Sources */,
+				17061AF71F73DA9C0099F5A0 /* main.m in Sources */,
+				17061AEF1F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17061AEA1F73DA9C0099F5A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17061AEB1F73DA9C0099F5A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17061AF21F73DA9C0099F5A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17061AF31F73DA9C0099F5A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17061AF81F73DA9C0099F5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17061AF91F73DA9C0099F5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17061AFB1F73DA9C0099F5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7FUFP2U2D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyWikitudeApp2ForiOS/Frameworks",
+				);
+				INFOPLIST_FILE = MyWikitudeApp2ForiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Isshiki.MyWtApp2ForiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17061AFC1F73DA9C0099F5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7FUFP2U2D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyWikitudeApp2ForiOS/Frameworks",
+				);
+				INFOPLIST_FILE = MyWikitudeApp2ForiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Isshiki.MyWtApp2ForiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17061ADC1F73DA9C0099F5A0 /* Build configuration list for PBXProject "MyWikitudeApp2ForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17061AF81F73DA9C0099F5A0 /* Debug */,
+				17061AF91F73DA9C0099F5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17061AFA1F73DA9C0099F5A0 /* Build configuration list for PBXNativeTarget "MyWikitudeApp2ForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17061AFB1F73DA9C0099F5A0 /* Debug */,
+				17061AFC1F73DA9C0099F5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17061AED1F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17061AEE1F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS.xcdatamodel */,
+			);
+			currentVersion = 17061AEE1F73DA9C0099F5A0 /* MyWikitudeApp2ForiOS.xcdatamodel */;
+			path = MyWikitudeApp2ForiOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17061AD91F73DA9C0099F5A0 /* Project object */;
+}
