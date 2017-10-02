@@ -29,7 +29,7 @@ var World = {
         // その「画像ターゲットコレクション」リソースから、「AR画像トラッカー」を作成します。
         var tracker = new AR.ImageTracker(targetCollectionResource, {
             // ImageTrackerクラスのオプションプロパティを以下のように設定します：
-            maximumNumberOfConcurrentlyTrackableTargets: 2, // 同時に追跡可能のターゲットの最大数を設定。
+            maximumNumberOfConcurrentlyTrackableTargets: 2, // 同時に追跡可能なターゲットの最大数を設定。
             extendedRangeRecognition: AR.CONST.IMAGE_RECOGNITION_RANGE_EXTENSION.OFF, // 拡張された範囲認識を無効にします。理由は、処理パワーが必要になって動作が遅くなるのを回避するため。
             onDistanceChangedThreshold: 0,                  // 後述のonDistanceChangedコールバック関数が呼び出される閾値として、ターゲット間の最小距離（mm）を設定。
             onRotationChangedThreshold: 10,                 // 後述のonRotationChangedコールバック関数が呼び出される閾値として、ターゲット間の最小回転角（°）を設定。
