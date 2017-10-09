@@ -294,7 +294,7 @@
 // という2つのプロトコルに準拠したデリゲートメソッドを提供しています。
 // これらのデリゲートを使うことで、例えば以下のようなことが実現できます。
 // 　（1）ARchitect World ロード完了時の処理
-// 　（2）JavaScript内のdocument.locationで用いる「architectsdk://」プロトコルの起動
+// 　（2）JavaScriptからObjective-C側への通信で使われる「AR.platform.sendJSONObject」によるJSONデータを受け取る「receivedJSONObject」メソッドの実装
 // 　（3）ビューのキャプチャ処理の管理
 // 　（4）WTArchitectViewから引き起こされるビューコントローラーの表示処理のカスタマイズ
 
